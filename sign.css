@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: rgba(235, 239, 241, 255);
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 400px;
+    box-shadow: 0 1px 9px 0 rgb(201, 196, 196);
+}
+.center .logo{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 30px 0 10px 0;
+    /* background: red; */
+}
+.center form{
+    position: relative;
+    /* background: yellow; */
+    margin: 10px 25px;
+}
+form .field,
+form .btn{
+    display: grid;
+    margin: 20px 0;
+}
+form .field input{
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgb(156, 155, 155);
+    padding: 0 0 0 10px;
+}
+form .btn input{
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgb(156, 155, 155);
+    font-size: 17px;
+    background: rgba(109, 128, 135, 255);
+    color: white;
+}
+form .log{
+    text-align: center;
+    color: rgb(156, 155, 155);
+}
+form .log p{
+    padding: 10px 0;
+}
+form .log p a{
+    color: black;
+}
+form .log .option{
+    display: flex;
+    justify-content: center;
+}
+form .log .option li{
+    padding: 10px;
+}
+form .log .option li a{
+    font-size: 25px;
+    color: rgb(156, 155, 155);
+}
+
+/* for login.html */
+form .sign{
+    text-align: center;
+    color: rgb(156, 155, 155);
+}
+form .sign .space{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+form .sign p{
+    padding: 10px 0;
+}
+#tp{
+    padding-top: 25px;
+}
+form .sign p a{
+    color: black;
+}
+form .sign .option{
+    display: flex;
+    justify-content: center;
+}
+form .sign .option li{
+    padding: 10px;
+}
+form .sign .option li a{
+    font-size: 25px;
+    color: rgb(156, 155, 155);
+}
+/*---------------------x------- for login.html */
+form .log .txt,
+form .sign .txt{
+    font-size: 14px;
+    padding-bottom: 36px;
+}
+form .log .txt a,
+form .sign .txt a{
+    color: rgb(156, 155, 155);
+    text-decoration: underline;
+}

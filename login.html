@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="center">
+        <div class="logo">Sign In</div>
+        <form action="login.php" method="post">
+            <div class="field">
+                <input type="text" placeholder="Username or E-mail" name="mail">
+            </div>
+            <div class="field">
+                <input type="password" placeholder="Password" name="pass">
+            </div>
+            <div class="btn">
+                <input type="submit" value="Sign In">
+            </div>
+            <div class="sign">
+                <p class="space">Forgot Pssword? <a href="signup.php">Sign Up</a></p>
+                <p id="tp">or you can sign in with</p>
+                <ul class="option">
+                    <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+                <p class="txt">This site is protected by reCAPTCHA and the Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Service </a>apply</p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
